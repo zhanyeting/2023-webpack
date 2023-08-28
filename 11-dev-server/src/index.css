@@ -1,0 +1,16 @@
+body {
+    background-color: skyblue;
+}
+
+
+.div_bg {
+    background-image: url('./assets/logo.svg') !important;
+}
+
+.square {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-right: 16px;
+    background-color: red;
+}

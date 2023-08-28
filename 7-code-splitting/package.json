@@ -1,0 +1,52 @@
+{
+  "name": "7-code-splitting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build & npm run dev",
+    "dev": "webpack-dev-server -c ./webpack.config.js",
+    "build": "webpack -c ./webpack.config.js",
+
+    "start3": "npm run build3 & npm run dev3",
+    "dev3": "webpack-dev-server -c ./webpack.config-3.js",
+    "build3": "webpack -c ./webpack.config-3.js",
+
+    "start2": "npm run build2 & npm run dev2",
+    "dev2": "webpack-dev-server -c ./webpack.config-2.js",
+    "build2": "webpack -c ./webpack.config-2.js",
+
+    "start1": "npm run build1 & npm run dev1",
+    "dev1": "webpack-dev-server -c ./webpack.config-1.js",
+    "build1": "webpack -c ./webpack.config-1.js",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.8.1",
+    "css-minimizer-webpack-plugin": "^5.0.1",
+    "csv-loader": "^3.0.5",
+    "html-webpack-plugin": "^5.5.3",
+    "json5": "^2.2.3",
+    "less-loader": "^11.1.3",
+    "lodash": "^4.17.21",
+    "mini-css-extract-plugin": "^2.7.6",
+    "style-loader": "^3.3.3",
+    "toml": "^3.0.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "xml-loader": "^1.2.1",
+    "yaml": "^2.3.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.22.10",
+    "@babel/runtime": "^7.22.10",
+    "mini-svg-data-uri": "^1.4.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

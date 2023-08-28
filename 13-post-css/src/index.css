@@ -1,0 +1,11 @@
+body{
+    background-color: pink;
+    display: flex;
+
+    .box {
+        width: 200px; 
+        height: 200px;
+        background-color: yellow;
+        color: red;
+    }
+}

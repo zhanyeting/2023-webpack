@@ -1,0 +1,12 @@
+body {
+    background-color: aqua;
+    display: flex;
+    font-size: 30px;
+
+    .pinkBox {
+        width: 100px;
+        height: 100px;
+        color: white;
+        background-color: rgb(222, 41, 71);
+    }
+}

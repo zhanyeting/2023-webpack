@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+</head>
+<body>
+    <h1>Webpack library ----- CommonJS</h1>
+
+    <script type="module">
+        import { numToWord, wordToNum }  from '../dist/webpack-number.js';
+        console.log(1111, '==== ', numToWord(1));
+        console.log("Four", '==== ', wordToNum("Four"));
+    </script>
+</body>
+</html>

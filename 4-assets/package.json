@@ -1,0 +1,23 @@
+{
+  "name": "4-webpack-resource",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build  & webpack-dev-server -c ./webpack.config.js",
+    "start2": "webpack-dev-server",
+    "build": "webpack -c ./webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.3",
+    "mini-svg-data-uri": "^1.4.4",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^4.15.1"
+  }
+}
