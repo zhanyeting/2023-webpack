@@ -11,6 +11,7 @@
     },
     "plugins": ["import"],  // 解决动态导入 import() 语法报错，需要安装包 npm i eslint-plugin-import -D
     "rules": {
-        "no-var": 2 // 不能使用 var 定义变量
+        "no-var": 2, // 不能使用 var 定义变量
+        "no-console": 0  // 关闭 console.log 的提示
     }
 }
