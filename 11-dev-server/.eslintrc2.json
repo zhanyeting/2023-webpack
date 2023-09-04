@@ -1,13 +1,20 @@
 {
     "env": {
-        "browser": true,
+        "node": true, // 启用node中全局变量
+        "browser": true, // 启用浏览器中全局变量
         "es2021": true
     },
+    // 继承其他规则
     "extends": "airbnb-base",
+    // 解析选项
     "parserOptions": {
-        "ecmaVersion": "latest",
-        "sourceType": "module"
+        "ecmaVersion": "latest",  // ES 语法版本  latest表示最新版本，一般设为 6 
+        "sourceType": "module",   // ES 模块化
+        "ecmaFeatures": { // ES 其他特性
+            "jsx": true // 如果是 React 项目，就需要开启 jsx 语法
+        }
     },
+    // 具体检查规则
     "rules": {
         "semi": ["error", "always"],
         "quotes": ["error", "single", { "allowTemplateLiterals": true, "avoidEscape": true }],
